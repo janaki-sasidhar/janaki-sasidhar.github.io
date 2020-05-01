@@ -32,7 +32,14 @@ code {
 	display: inline-block;
 	border-radius: 3px;
 	padding: 0 3px;
-	max-height: 40em;
+}
+
+blockquote {
+	color: $medium-gray;
+	font-style: italic;
+	border-left: 2px solid $light-gray;
+	margin-left: 0;
+	padding-left: 3em;
 }
 
 pre code.hljs {
@@ -46,7 +53,6 @@ pre code.hljs {
   margin-left: auto;
   margin-right: auto;
   border-top: 1px solid $divider-color;
-  height: 8px;
   .one {
     position: relative;
     top: -9px;
@@ -71,6 +77,11 @@ pre code.hljs {
   }
 }
 
+.tooltip {
+	border-bottom: 1px dotted $medium-gray;
+}
+
+
 .site-header-container, .post-header-container {
 	width: 100%;
 	text-align: center;
@@ -84,17 +95,6 @@ pre code.hljs {
 		}
 		.subtitle, .info {
 			font-size: modular-scale(1);
-		}
-		.attribution{
-			position: relative;
-			float: right;
-			margin-right: 1em;
-			color: $white;
-			top: -2em;
-			opacity: 0.4;
-			a {
-				color: $white;
-			}
 		}
 	}
 	.scrim {
@@ -116,6 +116,13 @@ pre code.hljs {
 	box-shadow: 0 2px $highlight-color;
 	padding: 0 1em;
 	margin: 0;
+	// Remove this to make header scrollable again
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: $white;
+	z-index: 1;
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
 	*/
@@ -207,6 +214,8 @@ pre code.hljs {
 *	Body
 */
 .page-content {
+	// Remove this to make header scrollable again
+	margin-top: 66px;
 	.wrapper {
 		@include outer-container;
 		padding: 1em;
@@ -241,6 +250,9 @@ pre code.hljs {
 		.page-number {
 			padding: 0 1em;
 		}
+    a.newer-posts {
+      text-decoration: none;
+    }
 	}
 	.site-header-container {
 		color: $white;
@@ -256,71 +268,10 @@ pre code.hljs {
 			}
 		}
 	}
-	blockquote {
-		border-left: solid 4px #2980b9;
-		padding-left: 1.4em;
-		padding-top: 0.25em;
-		font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-	}
 	img {
 		display: block;
 		margin: auto;
 		width: 90%;
-	}
-	video {
-		display: block;
-		margin: auto;
-		width: 90%;
-	}
-	.emoji {
-		display: inline;
-		width: auto;
-	}
-	.avatar-round {
-		box-shadow: 0 5px 10px $gray;
-		border-radius: 50%;
-		max-width: none;
-		width: 30%;
-	}
-	.quote {
-		margin: auto;
-		padding-left: 3em;
-		padding-right: 3em;
-		padding-top: 2em;
-		padding-bottom: 2em;
-		text-align: center;
-		.quote-content {
-			font-size: 120%;
-			max-width: max-content;
-			padding-top: 0.6em;
-			padding-bottom: 1em;
-			opacity: 0.87;
-			margin: auto;
-			::before {
-				content: '\201C';
-			}
-			::after {
-				content: '\201D';
-			}
-		}
-		.quote-author {
-			text-align: right;
-			margin-right: 20px;
-			opacity: 0.5;
-			display: flex;
-			flex-direction: row;
-			justify-content: flex-end;
-			padding-bottom: 1.0em;
-		}
-		.quote-author::before {
-			content: "- ";
-		}
-	}
-	.lightbox-caption {
-		display: block;
-		width: 100%;
-		font-weight: 600;
-		text-align: center;
 	}
 	/*
 	*	Posts
@@ -335,8 +286,7 @@ pre code.hljs {
 			}
 		}
 		.post-meta {
-			font-style: italic;
-			padding-bottom: 0em;
+			padding-bottom: 1em;
 		}
 		.post-content {
 			padding: 1em 0;
@@ -369,6 +319,24 @@ pre code.hljs {
 		}
 		.disqus {
 			@include span-columns(12);
+		}
+		.post-navigation {
+			font-size: 0.9em;
+			display: block;
+			width: auto;
+			.prev-post {
+				display: block;
+				width: 50%;
+				float: left;
+				margin: 1em 0;
+			}
+			.next-post {
+				display: block;
+				width: 50%;
+				float: left;
+				margin: 1em 0;
+				text-align: right;
+			}
 		}
 	}
 	/*
@@ -482,25 +450,4 @@ pre code.hljs {
 			text-decoration: underline;
 		}
 	}
-}
-
-.post-navigation {
-	font-size: 14px;
-	display: block;
-	width: auto;
-}
-
-.post-navigation .prev-post {
-	display: block;
-	width: 50%;
-	float: left;
-	margin: 1em 0;
-}
-
-.post-navigation .next-post {
-	display: block;
-	width: 50%;
-	float: left;
-	margin: 1em 0;
-	text-align: right;
 }
