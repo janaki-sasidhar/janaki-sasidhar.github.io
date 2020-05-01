@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fuck
+title: sample page
 permalink: /fuck/
 main_nav: true
 ---
