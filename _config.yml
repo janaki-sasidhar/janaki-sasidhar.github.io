@@ -1,22 +1,22 @@
 
 # Site settings
-title: Nikhita Raghunath
-name: Nikhita Raghunath
-subtitle: Learnings, Ramblings and Rants
-email: hello@nikhita.dev
+title: Sasidhar 
+name: Sasidhar
+subtitle: This is my personal blog
+email: sasidhar123@protonmail.com
 description: >
-  A personal website about technical things I find useful. Also, random ramblings and rants.
+  This is my personal portfolio website as well as blog. Its is under construction
 baseurl: ""
-url: "https://www.nikhita.dev"
-twitter_username: TheNikhita
-github_username:  nikhita
-disqus_baseurl: "https://nikhita.github.io/"
-disqus_shortname: https-nikinath-github-io
+url: "http://sasidhar.wtf"
+twitter_username: nwjstsasi
+github_username:  janaki-sasidhar
+#disqus_baseurl: "https://nikhita.github.io/"
+#disqus_shortname: https-nikinath-github-io
 permalink: :title
 cover: "/assets/header_image.jpg"
-logo: "/assets/nr-logo.jpg"
+logo: "/assets/logo.jpg"
 avatar: "/assets/headshot.jpg"
-ga_tracking_id: "UA-82647777-1"
+#ga_tracking_id: "UA-82647777-1"
 
 # Build settings
 markdown: kramdown
@@ -29,11 +29,11 @@ defaults:
     scope:
       path: ""
     values:
-      author: "Nikhita Raghunath"
+      author: "Janaki Sasidhar"
 
 
 # External gems
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jemoji
