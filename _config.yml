@@ -43,8 +43,8 @@ exclude:
   - "/vendor/"
 
 # Collections
-collections:
-  - talks
+#collections:
+# - talks
 
 #
 # Social settings are used in two places:
@@ -64,8 +64,8 @@ collections:
 social:
   - name: Twitter
     icon: twitter
-    username: TheNikhita
-    url: https://twitter.com/TheNikhita
+    username: nwjstsasi
+    url: https://twitter.com/nwjstsasi
     desc: Follow me on Twitter
     share: true
 
@@ -78,15 +78,15 @@ social:
 
   - name: GitHub
     icon: github
-    username: nikhita
-    url: https://github.com/nikhita
+    username: janaki-sasidhar
+    url: https://github.com/janaki-sasidhar
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Nikhita Raghunath
-    url: https://in.linkedin.com/in/nikinath
+    username: Sasidhar
+    url: https://www.linkedin.com/in/sasidhar-royal-aa6249151
     desc: Connect with me on LinkedIn
     share: true
 
@@ -106,8 +106,8 @@ social:
 
   - name: Instagram
     icon: instagram
-    username:
-    url:
+    username: sasidhar
+    url: https://www.instagram.com/sasidhar_pid1/
     desc: Follow me on Instagram
     share: false
 
@@ -185,6 +185,6 @@ protocols:
 
     twitter_image: "/assets/nr-logo.jpg"
 
-    os_repo: "https://github.com/nikhita/nikhita.github.io"
+    os_repo: "https://github.com/janaki-sasidhar/janaki-sasidhar.github.io" 
     os_rcs_type: "git"
-    os_src: "git@github.com:nikhita.github.io.git"
+    os_src: "git@github.com:janaki-sasidhar/janaki-sasidhar.github.io.git"
