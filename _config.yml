@@ -71,10 +71,10 @@ social:
 
   - name: Quora
     icon: quora
-    username: NikhitaRaghunath
+    username:
     url:
     desc: Follow me on Quora
-    share: true
+    share: false
 
   - name: GitHub
     icon: github
