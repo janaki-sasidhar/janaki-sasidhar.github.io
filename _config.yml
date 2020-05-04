@@ -175,13 +175,6 @@ social:
     desc: Share to Hacker News
     share: false
 
-  - name: "Telegram"
-    icon: telegram
-    username: SASIDHAR
-    url: "https://t.me/goddoesntexistfam"
-    desc: Share to Telegram
-    share: false
-
 
 
 
