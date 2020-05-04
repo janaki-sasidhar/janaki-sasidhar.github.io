@@ -175,7 +175,7 @@ social:
     desc: Share to Hacker News
     share: false
 
- - name: "TELEGRAM"
+  - name: "TELEGRAM"
     icon: fa-telegram-square
     username: sasidhar
     url: "https://t.me/goddoesntexistfam"
