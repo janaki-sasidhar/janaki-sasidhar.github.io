@@ -175,6 +175,16 @@ social:
     desc: Share to Hacker News
     share: false
 
+  - name: "Telegram"
+    icon: telegram
+    username: SASIDHAR
+    url: "https://t.me/goddoesntexistfam"
+    desc: Share to Telegram
+    share: false
+
+
+
+
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
