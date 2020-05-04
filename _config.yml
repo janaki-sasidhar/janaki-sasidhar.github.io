@@ -1,7 +1,7 @@
 
 # Site settings
-title: SASIDHAR 
-name: SASIDHAR
+title: SASIDHAR
+name:  SASIDHAR
 subtitle: This is my personal blog
 email: sasidhar123@protonmail.com
 telegram : Goddoesntexistfam
@@ -115,7 +115,7 @@ social:
   - name: Pinterest
     icon: pinterest
     username:
-    url: "" 
+    url: ""
     desc: Follow me on Pinterest
     share: true
 
@@ -174,7 +174,7 @@ social:
     url: ""
     desc: Share to Hacker News
     share: false
-  
+
 - name: "TELEGRAM"
     icon: fa-telegram-square
     username: sasidhar
@@ -197,6 +197,6 @@ protocols:
 
     twitter_image: "/assets/nr-logo.jpg"
 
-    os_repo: "https://github.com/janaki-sasidhar/janaki-sasidhar.github.io" 
+    os_repo: "https://github.com/janaki-sasidhar/janaki-sasidhar.github.io"
     os_rcs_type: "git"
     os_src: "git@github.com:janaki-sasidhar/janaki-sasidhar.github.io.git"
