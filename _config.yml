@@ -175,6 +175,13 @@ social:
     desc: Share to Hacker News
     share: false
 
+  - name: "telegram"
+    icon: telegram-plane
+    username: sasidhar
+    url: "t.me/goddoesntexistfam"
+    desc: Share to Telegram
+    share: false
+
 
 
 
