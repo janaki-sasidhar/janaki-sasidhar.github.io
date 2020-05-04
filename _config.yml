@@ -93,14 +93,14 @@ social:
   - name: Google+
     icon: google-plus
     username:
-    url:
+    url: ""
     desc: Add me to your Circles
     share: true
 
   - name: YouTube
     icon: youtube
     username:
-    url:
+    url: ""
     desc: Subscribe on YouTube
     share: false
 
@@ -114,63 +114,63 @@ social:
   - name: Pinterest
     icon: pinterest
     username:
-    url:
+    url: "" 
     desc: Follow me on Pinterest
     share: true
 
   - name: SoundCloud
     icon: soundcloud
     username:
-    url:
+    url: ""
     desc: Follow me on SoundCloud
     share: false
 
   - name: Tumblr
     icon: tumblr
     username:
-    url:
+    url: ""
     desc: Follow me on Tumblr
     share: false
 
   - name: Steam
     icon: steam
     username:
-    url:
+    url: ""
     desc: Friend me on Steam
     share: false
 
   - name: Dribbble
     icon: dribbble
     username:
-    url:
+    url: ""
     desc: Follow me on Dribble
     share: false
 
   - name: Vimeo
     icon: vimeo-square
     username:
-    url:
+    url: ""
     desc: Follow me on Vimeo
     share: false
 
   - name: Vine
     icon: vine
     username:
-    url:
+    url: ""
     desc: Follow me on Vine
     share: false
 
   - name: Reddit
     icon: reddit
     username:
-    url:
+    url: ""
     desc: Share to Reddit
     share: true
 
   - name: "Hacker News"
     icon: hacker-news
     username:
-    url:
+    url: ""
     desc: Share to Hacker News
     share: false
 
