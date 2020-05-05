@@ -6,12 +6,12 @@ author : sasidhar
 categories : help
 ---
 
-```console
-fuck@fusk : ji
-dfddffadfadsfdsfdsfasdfsafasfdsfffffffffdsfsdfsdfsdfsdfs
-ds
-f
-dsf
-sdfsdf
-sfsdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+```bash
+#!/bin/bash
+# rsync using variables
+
+SOURCEDIR=/home/user/Documents/
+DESTDIR=/media/diskid/user_backup/Documents/
+
+rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
 ```
