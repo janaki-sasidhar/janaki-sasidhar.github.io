@@ -6,7 +6,7 @@ author : sasidhar
 categories : help
 ---
 
-{% highlight javascript %}
+{% highlight bash %}
 #!/bin/bash
 # rsync using variables
 
