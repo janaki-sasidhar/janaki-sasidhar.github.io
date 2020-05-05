@@ -6,12 +6,13 @@ author : sasidhar
 categories : help
 ---
 
-{% highlight bash %}
-#!/bin/bash
-# rsync using variables
 
-SOURCEDIR=/home/user/Documents/
-DESTDIR=/media/diskid/user_backup/Documents/
+	#!/bin/bash
+	# rsync using variables
 
-rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
-{% endhighlight %}
+	SOURCEDIR=/home/user/Documents/
+	DESTDIR=/media/diskid/user_backup/Documents/
+
+	rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
+
+end
