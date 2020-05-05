@@ -9,6 +9,8 @@ tags : videos linux academy download
 
 Every month, Linux Academy releases courses for free. I'm a very busy college student and don't have time to whirl through everything I want to before it goes behind their paywall again so I figured out how to download a course or two every month using [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/).
 
+>>READ TIME : 3 MINUTES
+
 # Setup
 * Install [`youtube-dl`](https://ytdl-org.github.io/youtube-dl/download.html)
 * Make sure you have a browser handy
