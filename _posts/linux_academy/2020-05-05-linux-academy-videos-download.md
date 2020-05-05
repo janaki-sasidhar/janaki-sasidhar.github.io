@@ -39,7 +39,7 @@ Every month, Linux Academy releases courses for free. I'm a very busy college st
 * Copy the URL
 * Paste it after `youtube-dl` in a terminal:
 
-```bash
+```sh
 sasidhar@sasidhar:~ $ youtube-dl https://video-cdn.linuxacademy.com/vods3/_definst_/smil:box/cdnstore/modules/lots-of-stuff-in-here
 ```
 
