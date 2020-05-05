@@ -6,6 +6,6 @@ author : sasidhar
 categories : help
 ---
 
-```sh
+```console
 fuck
 ```
