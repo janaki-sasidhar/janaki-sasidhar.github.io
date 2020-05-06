@@ -1,6 +1,6 @@
 ---
 layout : post
-title : software_i_use
+title : software I use
 date : 2020-02-02 20:50:50
 author : sasidhar
 categories : software
