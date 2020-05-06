@@ -3,7 +3,7 @@ layout : post
 title : software_i_use
 date : 2020-02-02 20:50:50
 author : sasidhar
-categories : help
+categories : software
 ---
 This post briefly describes the software I use in my laptop and mobile. Feel free to look around.
 
