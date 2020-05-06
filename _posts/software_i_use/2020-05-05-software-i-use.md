@@ -5,16 +5,10 @@ date : 2020-02-02 20:50:50
 author : sasidhar
 categories : help
 ---
-~~~ bash
+This post briefly describes the software I use in my laptop and mobile. Feel free to look around.
 
-	#!/bin/bash
-	# rsync using variables
+>LAPTOP
 
-	SOURCEDIR=/home/user/Documents/
-	DESTDIR=/media/diskid/user_backup/Documents/
-
-	rsync -avh --exclude="*.bak" $SOURCEDIR $DESTDIR
-
-ensd
-
-~~~
+#pdf_reader
+* Okular - This is the best pdf reader out there. Go download now from [here](https://okular.kde.org/)
+*
