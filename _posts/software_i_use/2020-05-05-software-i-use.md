@@ -10,4 +10,4 @@ This post briefly describes the software I use in my laptop and mobile. Feel fre
 # LAPTOP
 
 * Okular - This is the best pdf reader out there. Go download now from [here](https://okular.kde.org/)
-*
+* Making bootable iso - use dd for linux iso files and WoeUSB for booting windows iso.
