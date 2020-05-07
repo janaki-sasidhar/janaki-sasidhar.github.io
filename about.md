@@ -10,6 +10,7 @@ main_nav: true
 <span style="color:blue">Sasidhar Royal</span>
 
 I'm a under graduate student studying in India.I work with python and some devops tools.My goal is to become a successful DevOps engineer.
+Take a look at the roadmap : [image](/assets/devops.png)
 
 Feel free to contact me using any service below.
 
