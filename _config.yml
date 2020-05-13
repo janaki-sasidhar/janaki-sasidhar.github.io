@@ -179,7 +179,7 @@ social:
 
   - name: "TELEGRAM"
     icon: fa-telegram-square
-    username:  sasidhar
+    username: (telegram) sasidhar
     url: "https://t.me/goddoesntexistfam"
     desc: Share to Hacker News
     share: false
