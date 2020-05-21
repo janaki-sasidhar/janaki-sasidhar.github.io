@@ -1,4 +1,4 @@
-[](---)
+---
 layout : post
 title : "Download videos from linux academy"
 date : 2020-05-05 07:45:36
