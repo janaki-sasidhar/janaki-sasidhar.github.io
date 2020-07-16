@@ -56,8 +56,8 @@ social:
 
   - name: Quora
     icon: quora
-    username:
-    url: ""
+    username: sasidhar royal
+    url: "https://www.quora.com/profile/Sasidhar-Royal-1"
     desc: Follow me on Quora
     share: false
 
@@ -105,8 +105,8 @@ social:
 
   - name: SoundCloud
     icon: soundcloud
-    username:
-    url: ""
+    username: sasidhar_royal
+    url: "https://soundcloud.com/user-529628289"
     desc: Follow me on SoundCloud
     share: false
 
@@ -133,8 +133,8 @@ social:
 
   - name: Vimeo
     icon: vimeo-square
-    username:
-    url: ""
+    username: sasidhar royal
+    url: "https://vimeo.com/user119696250"
     desc: Follow me on Vimeo
     share: false
 
@@ -147,8 +147,8 @@ social:
 
   - name: Reddit
     icon: reddit
-    username:
-    url: ""
+    username: sasidhar123
+    url: "https://reddit.com/user/sasidhar123"
     desc: Share to Reddit
     share: true
 
@@ -161,7 +161,7 @@ social:
 
   - name: "TELEGRAM"
     icon: paper-plane
-    username: (telegram) sasidhar
+    username: sasidhar
     url: "https://t.me/goddoesntexistfam"
     desc: Telegram
     share: false
