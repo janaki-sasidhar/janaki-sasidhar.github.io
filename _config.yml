@@ -55,7 +55,7 @@ social:
     share: true
 
   - name: Quora
-    icon: quora
+    icon: user-o
     username: sasidhar royal
     url: "https://www.quora.com/profile/Sasidhar-Royal-1"
     desc: Follow me on Quora
