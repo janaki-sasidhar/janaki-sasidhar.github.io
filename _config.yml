@@ -11,13 +11,12 @@ baseurl: ""
 url: ""
 twitter_username: nwjstsasi
 github_username:  janaki-sasidhar
-#disqus_baseurl: "https://nikhita.github.io/"
-#disqus_shortname: https-nikinath-github-io
+
 permalink: :title
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
 avatar: "/assets/headshot.jpg"
-#ga_tracking_id: "UA-82647777-1"
+
 
 # Build settings
 markdown: kramdown
@@ -45,24 +44,7 @@ plugins:
 exclude:
   - "/vendor/"
 
-# Collections
-#collections:
-# - talks
 
-#
-# Social settings are used in two places:
-# * In the footer, as links to your personal profiles
-# * After each blog post for sharing widgets
-#
-# Example:
-#
-# social:
-#   - name: Twitter                         # Name of the service
-#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-#     username: "@TheBenCentra"             # (User) Name to display in the footer link
-#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-#     desc: Follow me on Twitter            # Description to display as link title, etc
-#     share: true                           # Include in the "Share" section of posts
 
 social:
   - name: Twitter
@@ -178,10 +160,10 @@ social:
     share: false
 
   - name: "TELEGRAM"
-    icon: fa-telegram-square
+    icon: telegram-square
     username: (telegram) sasidhar
     url: "https://t.me/goddoesntexistfam"
-    desc: Share to Hacker News
+    desc: Telegram
     share: false
 
 
