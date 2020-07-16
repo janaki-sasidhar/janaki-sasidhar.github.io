@@ -160,7 +160,7 @@ social:
     share: false
 
   - name: "TELEGRAM"
-    icon: telegram
+    icon: twitter
     username: (telegram) sasidhar
     url: "https://t.me/goddoesntexistfam"
     desc: Telegram
