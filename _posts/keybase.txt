@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/sasidhar_royal
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://janaki-sasidhar.github.io
+  * I am sasidhar_royal (https://keybase.io/sasidhar_royal) on keybase.
+  * I have a public key with fingerprint AD3D 2421 FE84 F96B 417B  2412 DE47 94A6 E15E BA99
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d005f4cd315c3bd73c73d5da159a88fd2b649b67cba231727421c52b688b09130a",
+      "fingerprint": "ad3d2421fe84f96b417b2412de4794a6e15eba99",
+      "host": "keybase.io",
+      "key_id": "de4794a6e15eba99",
+      "kid": "0101d005f4cd315c3bd73c73d5da159a88fd2b649b67cba231727421c52b688b09130a",
+      "uid": "32ced0f9ee3d1a48054b79fafedb5819",
+      "username": "sasidhar_royal"
+    },
+    "service": {
+      "hostname": "janaki-sasidhar.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1595333906,
+  "expire_in": 157680000,
+  "prev": "2bacaa35d9bff361345fa0dcf86222b7acfc5bf9dd066f6fc930da9cfc762ca7",
+  "seqno": 16,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNHAnicrVJ9TFVlGL9E4iBIPoZ3mBgcC8z4ON8fDIPWJrghtgHLFLm+57zvuRwu
+3Hu554BdhBGgMTAxFDPR2yAmiWxBNi1jsYkscoSRG2KRyG27uSkRH2sSQnSO6X/9
+2fvPu/d5fx/P79kzGOJvCvKbzGjp9BZ8fdpv+Gp3mcmy/k74QUx0QDeWchCzoccX
+KoZI1Sw2BWIpGE7gBMRxRqYlSBGMRImQoySOggwEBCMAnpchKbK0ILKcJAKSIjiS
+o0lCYvQqz4u4QFA4wBIwWbFbkcvpUuyaLgsgBUkdJiOelgVWpAlOJGmChIjmBBqw
+iGCQCARBJxY6VIOhNycCFSUpDr2mPyyP2/sP/P/cd9ljOYqUEMRlASEKEoDmcYYW
+OUEGMoIiwxOGb5mKXHZQgnS0ClQFFgKXxeVwg2KsKgHT/8oVCRnjNfI8wRUBO7Ap
+iU/hSVZFKywT/43odDk0h+Qo1mGFmuZUUwwZze00eAeQaHmiaBEVO9RHqzPKkUtV
+HHYshdCRkqYYFnpUhqIoAWcTMPSOU3Ehi2IgGI7lcf0YPqhclyRFIAFAMVAQZZli
+CYpmZIBDSeZZkiRFDkiyxIiyACHOsjIrSwKFQyDoVY4lJcBhRsZSu0PX1q00YDXG
+oFjtQCtzIaxq4Gr+sya/IFPAmmeMnTMFBYY+3cTvb69bRb0nznttb/b0v76Y07WT
+mo7ZMVVrnm64sLTtw8at/nNDv311OT54sI9/fipGXvbUR3jC609l1GwJq9l8z/fy
+4Xs+2PD+d1gmQX7idaS2UisPAgdX+prm7WpJYhh/aPXtmV1bJ7ablr5JzC2J9UxY
+24uEveFFFe7Ml/qFjeaPkvOYTcmfjVyrbNK2SMsVP0a/K8cvn71zMdyv2r9lfd8u
+m+9YUdatz9kGX4x1x80ZcfGtFkse1zG8f5z2tHnj/spK3vvl3JH7IeYU/9e6Wh5N
+BnyMb0xMjzrK1/1dfCtvMcx9I3d0pvrIxCmne2ZnApZtPjcofhGZ1vZtYN65zW3z
+j2z5ecfz3xM0Ku7FV3zXs25664+OojOt6UtKb+LAAAcDFliuO2wkIBgGtddeaT6/
+Uns8IangYUXk3bnY8WHvvqYDIwVR9nURY9X1bU3ZKpcTunb/Hj979pr2KzVTtQp5
+wfzGw0t/rHbef7XnT0ydR8dO7lu4Hlt3Zg/YUBkfmBr1S/NsnWktLM44PLY8UXq2
+2zzrjsyKtjzXHhq0HNzbf7qkJHOybqo35MGh7Z925GzLWfjJlxZR0B/RmnNiusuz
+dC26eugH6+XSk9WWX8dGPRqk/LMrN11MX4gUe9LMH6Q2l1KmG5lY3M8zLzQ11l4i
+U2d/v7t7Q0ZAJ7m78fbQeG4HXsX9AwN/xVs=
+=Wo2V
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sasidhar_royal
+
+==================================================================
