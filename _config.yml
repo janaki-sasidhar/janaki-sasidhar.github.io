@@ -40,7 +40,6 @@ plugins:
   - jekyll-paginate-v2
   - jemoji
   - jekyll-seo-tag
-  - jekyll-time-to-read
 
 exclude:
   - "/vendor/"
