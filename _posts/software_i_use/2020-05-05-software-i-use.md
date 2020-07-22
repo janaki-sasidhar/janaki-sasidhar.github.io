@@ -63,7 +63,7 @@ This post briefly describes the software I use in my laptop and mobile. Feel fre
 - Emacs ( almost everything can be done in Emacs- I use DOOM EMACS )
 - VScodium
 - Termite ( terminal emulator )
-- Dolphin Browser
+- Dolphin File Manager
 - Ranger
 - MPD+NCMPCPP
 - VLC and MPV
@@ -73,3 +73,6 @@ This post briefly describes the software I use in my laptop and mobile. Feel fre
 - ProtonVPN ( free account )
 - I occassionally use TOR services too
 
+## Vps provider
+- I used to use hetzner but got some issue with my paypal and there is no other alternative to pay the bills.
+- I would suggest you to take a look into linode or scaleway
