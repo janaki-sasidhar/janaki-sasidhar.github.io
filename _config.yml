@@ -68,6 +68,13 @@ social:
     desc: Fork me on GitHub
     share: false
 
+  - name: Gitlab
+    icon: gitlab
+    username: janaki-sasidhar
+    url: https://gitlab.com/janaki-sasidhar
+    desc: Fork me on Gitlab
+    share: false
+
   - name: LinkedIn
     icon: linkedin
     username: Sasidhar
