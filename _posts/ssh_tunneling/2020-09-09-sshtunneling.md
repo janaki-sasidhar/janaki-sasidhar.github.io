@@ -32,7 +32,7 @@ Now you can access the website 'www.ubuntuformums.org' at localhost:8000
 
 Another example is 
 
-![](/assets/posts/localportforwarding1.png)
+![](/assets/localportforwarding1.png)
 
 In the image above, the blue host cannot reach http://192.168.0.3 but can ssh to 192.168.0.2. The following ssh command executed on the blue host will allow the blue host to reach the red host.
 ```sh
@@ -42,7 +42,8 @@ Now the blue host can open a browser, and go to http://localhost:8080 and be pre
 
 One more example where the ssh server and the destination server are same is :
 
-![](/assets/posts/localportforwarding2.png)
+![](/assets/localportforwarding2.png)
+
 In the image above, the blue host wants to connect to the red host on port 80 but there’s a firewall in between which is denying this. Because the blue host can ssh to the red host, we can create a local port forwarding ssh tunnel to access that port.
 The command on the blue host is:
 
@@ -62,18 +63,18 @@ You can do this using following :
 ```sh
 ssh -R <remotesshport>:<remote_ssh_server_ip>:<your_local_port> username@<remote_ssh_server>
 ```
-Now your friend can access your development server at **http://<remote_ssh_server>:<remotesssport>**
+Now your friend can access your development server at http://<remote_ssh_server>:<remotesssport>
 
 Another example is :
 In this scenario we are creating a reverse ssh tunnel. Here we can initiate an ssh tunnel in one direction, then use that tunnel to create an ssh tunnel back the other way.
 
-![](/assets/posts/remoteportforwarding1.png)
+![](/assets/remoteportforwarding1.png)
 
 We are on the green host and want to ssh to the blue host. However, the firewall blocks this connection directly. Because the blue host can ssh to the green host, we can connect using that, and when the green host wants to ssh back to the blue host, it can ride along this previously established tunnel.
 
 Blue host initiates ssh tunnel like this:
 ```sh
-ssh -R 2222:localhost:22 greenuser@192.168.0.2
+ssh -R 2222:localhost:22 greenuser@192.168.0.3
 ```
 
 This opens port 2222 on the green host, which is then port forwarding that to port 22 on the blue host. So if the green host were to ssh to itself on port 2222 it would then reach the blue host.
