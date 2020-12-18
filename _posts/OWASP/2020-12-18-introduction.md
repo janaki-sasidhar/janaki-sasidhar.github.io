@@ -2,9 +2,10 @@
 layout: post
 title: "Introduction to OWASP"
 date: 20-12-18
-author:
+author: s
 categories: owasp_introduction
 tags: security owasp vulnerabilities
+cover: "/assets/wolf1.png"
 ---
 
 Hello readers ,
@@ -63,8 +64,3 @@ The top ten vulnerabilities as of 20020 are :
 - Insufficient Logging & Monitoring
 
 These are the top ten web application security risks. There may ne some of them that you already know of and some of them you dont have any idea about. Dont worry. We'll be discussing each of them in depth with certain examples and pictures so it makes perfect sense why we should immediately be redesigning our application addressing these security concerns.
-
-# LAPTOP
-
-- Okular - This is the best pdf reader out there. Go download now from [here](https://okular.kde.org/)
-- Making bootable iso - use [dd]({% link _posts/inner_posts/2020-05-06-dd.md %}) for linux iso files and [WoeUSB](https://github.com/slacka/WoeUSB) for booting windows iso.
