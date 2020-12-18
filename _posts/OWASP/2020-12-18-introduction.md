@@ -3,7 +3,6 @@ layout: post
 title: "Introduction to OWASP"
 date: 20-12-18
 author:
-permalink: /owaspintro
 categories: owasp_introduction
 tags: security owasp vulnerabilities
 ---
